@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap;
 }
 
-.row {
+.message {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -68,7 +68,9 @@ body {
     font-size: 24px;
     margin-left: 16px;
     margin-top: 24px;
-    margin-bottom: 48px;
+    outline: none;
+    border: none;
+    resize: none;
 }
 
 .box-1__footer {
